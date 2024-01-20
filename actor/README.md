@@ -11,6 +11,7 @@ Here are some key differences between the threading model in Akka and traditiona
 
 - Isolation vs. sharing: In Akka, each actor is isolated from other actors and does not share a state, which helps to prevent race conditions and other concurrency issues. In traditional threading models, threads share memory and state, which can lead to concurrency issues.
 
+- ![Alt text](image-1.png)
 
 - Supervision vs. manual management: Akka provides a supervision hierarchy that allows actors to monitor and manage other actors. If an actor encounters an error, its supervisor can take appropriate action. In traditional threading models, error handling and management is typically done manually.
 
